@@ -1,7 +1,7 @@
 {
   "name": "word-game",
   "version": "0.1.0",
-  "homepage": "http://begerowiec.github.io/EnglishWordsReact",
+  "homepage": "https://begerowiec.github.io/EnglishWordsReact",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
