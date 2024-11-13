@@ -1,24 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+// App.js
+import React, { useState } from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import CategorySelection from './CategorySelection';
+import LevelSelection from './LevelSelection';
+import GameScreen from './GameScreen';
 
 function App() {
+  const [category, setCategory] = useState('');
+  const [level, setLevel] = useState(1);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/" element={<CategorySelection setCategory={setCategory} />} />
+        <Route path="/levels" element={<LevelSelection setLevel={setLevel} />} />
+        <Route
+          path="/game"
+          element={<GameScreen category={category} level={level} />}
+        />
+      </Routes>
+    </Router>
   );
 }
 

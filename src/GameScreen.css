@@ -1,0 +1,68 @@
+/* GameScreen.css */
+.fade-enter {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  .fade-enter-active {
+    opacity: 1;
+    transform: translateY(0);
+    transition: opacity 300ms, transform 300ms;
+  }
+  .fade-exit {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  .fade-exit-active {
+    opacity: 0;
+    transform: translateY(-20px);
+    transition: opacity 300ms, transform 300ms;
+  }
+  /* Dodatkowe style dla poprawnej odpowiedzi */
+.alert {
+    animation: fadeIn 0.5s;
+  }
+  
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+  
+  /* Style ekranu z informacją zwrotną */
+.feedback-screen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 999;
+  }
+  
+  .feedback-screen.correct {
+    background-color: rgba(0, 128, 0, 0.9); /* Zielone tło */
+  }
+  
+  .feedback-screen.incorrect {
+    background-color: rgba(255, 0, 0, 0.9); /* Czerwone tło */
+  }
+  
+  .feedback-content {
+    color: white;
+    text-align: center;
+  }
+  
+  .feedback-content h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+  }
+  
+  .feedback-content p {
+    font-size: 1.5em;
+  }
+  
+  .feedback-content button {
+    margin-top: 20px;
+  }
+  
