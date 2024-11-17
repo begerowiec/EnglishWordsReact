@@ -1,50 +1,278 @@
 [
-    { "polish": "północ", "english": "midnight", "category": "Podstawowe" },
-    { "polish": "nocny marek", "english": "a night owl", "category": "Podstawowe" },
-    { "polish": "ranny ptaszek", "english": "an early bird", "category": "Podstawowe" },
-    { "polish": "mijać", "english": "pass", "category": "Podstawowe" },
-    { "polish": "wspomaganie kierownicy", "english": "power steering", "category": "Podstawowe" },
-    { "polish": "od zera", "english": "from the scratch", "category": "Podstawowe" },
-    { "polish": "ściśnięty", "english": "squeezed", "category": "Podstawowe" },
-    { "polish": "lutować", "english": "solder", "category": "Podstawowe" },
-    { "polish": "lutownica", "english": "soldering iron", "category": "Podstawowe" },
-    { "polish": "dla chcącego nic trudnego", "english": "Where there’s a will, there’s a way", "category": "Podstawowe" },
-    { "polish": "im więcej tym weselej", "english": "the more, the merrier", "category": "Podstawowe" },
-    { "polish": "człowiek czynu", "english": "a mover and shaker", "category": "Idiomy" },
-    { "polish": "koparka", "english": "digger", "category": "Podstawowe" },
-    { "polish": "malkontent, osoba smutna narzekająca", "english": "a wet blanket", "category": "Idiomy" },
-    { "polish": "człowiek zadowolony ze swojego życia", "english": "a happy camper", "category": "Idiomy" },
-    { "polish": "tryskać energią", "english": "be full of beans", "category": "Idiomy" },
-    { "polish": "odciąć się od kogoś", "english": "cut oneself off from somebody", "category": "Podstawowe" },
-    { "polish": "zdobywca", "english": "a go-getter", "category": "Idiomy" },
-    { "polish": "dusza towarzystwa", "english": "a people person", "category": "Idiomy" },
-    { "polish": "mięczak, cienias", "english": "a wimp", "category": "Idiomy" },
-    { "polish": "nieokazujący emocji", "english": "a cold fish", "category": "Idiomy" },
-    { "polish": "być stukniętym", "english": "to have a screw loose", "category": "Idiomy" },
-    { "polish": "zatwardziały", "english": "set in one’s ways", "category": "Idiomy" },
-    { "polish": "sknera", "english": "a cheapskate", "category": "Idiomy" },
-    { "polish": "pesymista", "english": "a moaning Minnie", "category": "Idiomy" },
-    { "polish": "biadolić, jęczeć", "english": "whine", "category": "Podstawowe" },
-    { "polish": "odwaga", "english": "courage", "category": "Podstawowe" },
-    { "polish": "jęczeć, narzekać", "english": "moan", "category": "Podstawowe" },
-    { "polish": "poświęcać", "english": "sacrifice", "category": "Podstawowe" },
-    { "polish": "zapewniać, zagwarantować", "english": "ensure", "category": "Podstawowe" },
-    { "polish": "emerytowany", "english": "retired", "category": "Podstawowe" },
-    { "polish": "przejąć kontrolę", "english": "take charge", "category": "Podstawowe" },
-    { "polish": "unikać", "english": "avoid", "category": "Podstawowe" },
-    { "polish": "podkręcić (starania), pogłośnić (np. muzykę)", "english": "crank up", "category": "FOBO" },
-    { "polish": "być całkowicie nastawionym na", "english": "be dead set on", "category": "FOBO" },
-    { "polish": "poświęcenie", "english": "commitment", "category": "FOBO" },
-    { "polish": "kuszące opcje", "english": "enticing options", "category": "FOBO" },
-    { "polish": "elastyczność i dostosowywanie się", "english": "adapting and pivoting", "category": "FOBO" },
-    { "polish": "zostać konsekwentny", "english": "to stay consistent", "category": "FOBO" },
-    { "polish": "mieć coś wpisane w DNA", "english": "to be hardwired into our DNA", "category": "FOBO" },
-    { "polish": "sztywno trzymać się (czegoś)", "english": "rigidly adhere to", "category": "FOBO" },
-    { "polish": "różnorodność życia", "english": "tapestry of life", "category": "FOBO" },
-    { "polish": "głęboko zakorzenione", "english": "was deeply embedded", "category": "FOBO" },
-    { "polish": "na wyciągnięcie ręki", "english": "at your fingertips", "category": "FOBO" },
-    { "polish": "efekt domina", "english": "a ripple effect", "category": "FOBO" },
-    { "polish": "stały, jednostajny", "english": "steady", "category": "Podstawowe" },
-    { "polish": "wpleciony", "english": "interwoven", "category": "Podstawowe" },
-    { "polish": "przytłaczający", "english": "overwhelming", "category": "Podstawowe" }
+  {
+    "polish": "północ",
+    "english": "midnight",
+    "category": "Podstawowe"
+  },
+  {
+    "polish": "nocny marek",
+    "english": "a night owl",
+    "category": "Podstawowe"
+  },
+  {
+    "polish": "ranny ptaszek",
+    "english": "an early bird",
+    "category": "Podstawowe"
+  },
+  {
+    "polish": "mijać",
+    "english": "pass",
+    "category": "Podstawowe"
+  },
+  {
+    "polish": "wspomaganie kierownicy",
+    "english": "power steering",
+    "category": "Podstawowe"
+  },
+  {
+    "polish": "od zera",
+    "english": "from the scratch",
+    "category": "Podstawowe"
+  },
+  {
+    "polish": "ściśnięty",
+    "english": "squeezed",
+    "category": "Podstawowe"
+  },
+  {
+    "polish": "lutować",
+    "english": "solder",
+    "category": "Podstawowe"
+  },
+  {
+    "polish": "lutownica",
+    "english": "soldering iron",
+    "category": "Podstawowe"
+  },
+  {
+    "polish": "dla chcącego nic trudnego",
+    "english": "Where there’s a will, there’s a way",
+    "category": "Podstawowe"
+  },
+  {
+    "polish": "im więcej tym weselej",
+    "english": "the more, the merrier",
+    "category": "Podstawowe"
+  },
+  {
+    "polish": "człowiek czynu",
+    "english": "a mover and shaker",
+    "category": "Idiomy"
+  },
+  {
+    "polish": "koparka",
+    "english": "digger",
+    "category": "Podstawowe"
+  },
+  {
+    "polish": "malkontent, osoba smutna narzekająca",
+    "english": "a wet blanket",
+    "category": "Idiomy"
+  },
+  {
+    "polish": "człowiek zadowolony ze swojego życia",
+    "english": "a happy camper",
+    "category": "Idiomy"
+  },
+  {
+    "polish": "tryskać energią",
+    "english": "be full of beans",
+    "category": "Idiomy"
+  },
+  {
+    "polish": "odciąć się od kogoś",
+    "english": "cut oneself off from somebody",
+    "category": "Podstawowe"
+  },
+  {
+    "polish": "zdobywca",
+    "english": "a go-getter",
+    "category": "Idiomy"
+  },
+  {
+    "polish": "dusza towarzystwa",
+    "english": "a people person",
+    "category": "Idiomy"
+  },
+  {
+    "polish": "mięczak, cienias",
+    "english": "a wimp",
+    "category": "Idiomy"
+  },
+  {
+    "polish": "nieokazujący emocji",
+    "english": "a cold fish",
+    "category": "Idiomy"
+  },
+  {
+    "polish": "być stukniętym",
+    "english": "to have a screw loose",
+    "category": "Idiomy"
+  },
+  {
+    "polish": "zatwardziały",
+    "english": "set in one’s ways",
+    "category": "Idiomy"
+  },
+  {
+    "polish": "sknera",
+    "english": "a cheapskate",
+    "category": "Idiomy"
+  },
+  {
+    "polish": "pesymista",
+    "english": "a moaning Minnie",
+    "category": "Idiomy"
+  },
+  {
+    "polish": "biadolić, jęczeć",
+    "english": "whine",
+    "category": "Podstawowe"
+  },
+  {
+    "polish": "odwaga",
+    "english": "courage",
+    "category": "Podstawowe"
+  },
+  {
+    "polish": "jęczeć, narzekać",
+    "english": "moan",
+    "category": "Podstawowe"
+  },
+  {
+    "polish": "poświęcać",
+    "english": "sacrifice",
+    "category": "Podstawowe"
+  },
+  {
+    "polish": "zapewniać, zagwarantować",
+    "english": "ensure",
+    "category": "Podstawowe"
+  },
+  {
+    "polish": "emerytowany",
+    "english": "retired",
+    "category": "Podstawowe"
+  },
+  {
+    "polish": "przejąć kontrolę",
+    "english": "take charge",
+    "category": "Podstawowe"
+  },
+  {
+    "polish": "unikać",
+    "english": "avoid",
+    "category": "Podstawowe"
+  },
+  {
+    "polish": "podkręcić (starania), pogłośnić (np. muzykę)",
+    "english": "crank up",
+    "category": "FOBO"
+  },
+  {
+    "polish": "być całkowicie nastawionym na",
+    "english": "dead set on",
+    "category": "FOBO"
+  },
+  {
+    "polish": "poświęcenie, zobowiązanie",
+    "english": "commitment",
+    "category": "FOBO"
+  },
+  {
+    "polish": "kuszące opcje",
+    "english": "enticing options",
+    "category": "FOBO"
+  },
+  {
+    "polish": "adaptowanie się i dostosowywanie się",
+    "english": "adapting and pivoting",
+    "category": "FOBO"
+  },
+  {
+    "polish": "pozostawanie konsekwentny",
+    "english": "staying consistent",
+    "category": "FOBO"
+  },
+  {
+    "polish": "zakorzenione w twoim DNA",
+    "english": "hardwired into your DNA",
+    "category": "FOBO"
+  },
+  {
+    "polish": "sztywno trzymać się (czegoś)",
+    "english": "rigidly adhere to",
+    "category": "FOBO"
+  },
+  {
+    "polish": "różnorodność życia",
+    "english": "life's tapestry",
+    "category": "FOBO"
+  },
+  {
+    "polish": "głęboko zakorzenione",
+    "english": "deeply embedded",
+    "category": "FOBO"
+  },
+  {
+    "polish": "na wyciągnięcie ręki",
+    "english": "at your fingertips",
+    "category": "FOBO"
+  },
+  {
+    "polish": "efekt domina",
+    "english": "a ripple effect",
+    "category": "FOBO"
+  },
+  {
+    "polish": "bierz albo zostaw",
+    "english": "take it or leave it",
+    "category": "FOBO"
+  },
+  {
+    "polish": "wahać się",
+    "english": "sit on the fence",
+    "category": "FOBO"
+  },
+  {
+    "polish": "odsunąć się na dalszy plan",
+    "english": "take a back seat",
+    "category": "FOBO"
+  },
+  {
+    "polish": "lepszy wróbel w garści niż gołąb na dachu",
+    "english": "a bird in the hand is worth two in the bush",
+    "category": "FOBO"
+  },
+  {
+    "polish": "w zawieszeniu",
+    "english": "up in the air",
+    "category": "FOBO"
+  },
+  {
+    "polish": "podjąć ryzyko",
+    "english": "take the plunge",
+    "category": "FOBO"
+  },
+  {
+    "polish": "między młotem a kowadłem",
+    "english": "between a rock and a hard place",
+    "category": "FOBO"
+  },
+
+  {
+    "polish": "stały, jednostajny",
+    "english": "steady",
+    "category": "Podstawowe"
+  },
+  {
+    "polish": "wpleciony",
+    "english": "interwoven",
+    "category": "Podstawowe"
+  },
+  {
+    "polish": "przytłaczający",
+    "english": "overwhelming",
+    "category": "Podstawowe"
+  }
 ]
