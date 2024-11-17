@@ -1,0 +1,13 @@
+/* Navbar.css */
+.navbar {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navbar-brand img {
+    margin-right: 10px;
+  }
+  
+  .btn {
+    min-width: 100px;
+  }
+  

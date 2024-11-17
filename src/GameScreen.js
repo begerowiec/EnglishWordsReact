@@ -3,8 +3,11 @@ import React, { useState, useEffect, useRef } from 'react';
 import wordsData from './data/words.json';
 import { CSSTransition, TransitionGroup } from 'react-transition-group';
 import './GameScreen.css';
+import { useNavigate } from 'react-router-dom';
+
 
 const GameScreen = ({ category, level }) => {
+  const navigate = useNavigate();
   const [score, setScore] = useState(0);
   const [usedWords, setUsedWords] = useState([]);
   const [currentWord, setCurrentWord] = useState(null);
@@ -150,7 +153,7 @@ const GameScreen = ({ category, level }) => {
       <div className="container mt-5 text-center">
         <h1>Gra zakończona!</h1>
         <p>Twój wynik: {score}/{words.length}</p>
-        <button className="btn btn-primary" onClick={() => document.location.href="/"}>
+        <button className="btn btn-primary" onClick={() => navigate('/')}>
           Zagraj ponownie
         </button>
       </div>
